@@ -22,6 +22,8 @@ def main():
     m_current_off = 0.0
     times_above_current = 2.5
     string_id = 'off'
+    i = 0.0
+    p = 0.0
 
     # Append this reading to the microwave csv file.
     with open(filename, 'a+') as f:
